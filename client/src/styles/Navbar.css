@@ -1,0 +1,73 @@
+.navbar{
+    background:#290058;
+}
+.navbar .navbar-brand{
+    color: #f10093;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.navbar .navbar-brand span{
+    color: #0081ec;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.navbar .menu{
+   background: url('../images/menu.svg');
+   background-size: 40px;
+   background-position:center;
+   background-repeat: no-repeat;
+   filter: invert(1);
+   width:70px;
+   height: 40px;
+}
+.navbar .menu.active{
+   background: url('../images/close.svg');
+   background-size: 40px;
+   background-position:center;
+   background-repeat: no-repeat;
+   filter: invert(1);
+}
+.navbar .navigation{
+   display: none;
+}
+.navbar .navigation ul{
+   list-style: none;
+}
+.navbar .navigation ul li{
+   display: inline-block;
+   margin-right: 50px;
+
+}
+.navbar .navigation ul li .anchor{
+   text-decoration: none;
+   color: #c5dcf6;
+   font-size: 1.1em;
+   text-transform: capitalize;
+}
+.navbar .navigation.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 85vh;
+    flex-direction: column;
+}
+.navbar .navigation.active ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:40px 0;
+}
+.navbar .navigation.active ul li .anchor{
+    font-size: 1.8em;
+}
+
+@media (min-width:770px){
+    .navbar .menu{
+       display: none;
+     }
+     .navbar .navigation{
+        display: block;
+     }
+}

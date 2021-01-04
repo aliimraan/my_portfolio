@@ -1,0 +1,88 @@
+footer{
+    width:100%;
+    background:#1a0038;
+    padding: 50px 0;
+}
+footer .f_area{
+    width:100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+}
+footer .f_area .logo{
+    color: #f10093;
+    font-size: 2rem;
+    font-weight: 600;
+}
+footer .f_area .logo span{
+    color: #0081ec;
+    font-size: 2rem;
+    font-weight: 600;
+}
+footer .f_area .pages{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap:5px 0;
+}
+footer .f_area .pages .anchor{
+   font-size: 1.5rem;
+   color: #e4e3e9;
+   text-transform: capitalize;
+}
+footer .f_area .feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .f_area .feedback form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px dashed #ff0066;
+    padding: 20px;
+}
+footer .f_area .feedback form h5{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #e4e3e9;
+}
+footer .f_area .feedback form .email{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+footer .f_area .feedback form .email label{
+font-size:1rem;
+color:#e4e3e9;
+text-transform: uppercase;
+}
+footer .f_area .feedback form .email input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 4px 0;
+    background: #eeedf1;
+}
+footer .f_area .feedback form .email textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 4px 0;
+    background: #eeedf1;
+    resize: none;
+}
+footer .f_area .feedback form button{
+  border: none;
+  outline: none;
+  padding: 5px 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background: #1171ec;
+  color: #e4e3e9;
+  font-weight: 500;
+}
