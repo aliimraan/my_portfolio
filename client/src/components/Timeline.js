@@ -4,7 +4,7 @@ import '../styles/Timeline.css'
 export default function Timeline() {
     return (
         <div>
-            <main className="timeline">
+            <div className="timeline">
                 <div className="container">
                     <div className="header">
                         <div className="image"><img src="/images/timeline.svg"/></div>
@@ -54,7 +54,7 @@ export default function Timeline() {
                         </ul>
                     </div>
                 </div>
-            </main>
+            </div>
             
         </div>
     )

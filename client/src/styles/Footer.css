@@ -86,3 +86,13 @@ footer .f_area .feedback form button{
   color: #e4e3e9;
   font-weight: 500;
 }
+@media (max-width:770px){
+    footer .f_area{
+        width:100%;
+       display: flex;
+       justify-content: space-around;
+       align-items:center;
+       flex-direction: column;
+       gap: 50px 0;
+    }
+ }

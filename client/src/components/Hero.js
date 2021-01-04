@@ -12,7 +12,7 @@ export default function Hero() {
             </div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-12">
                             <div className="heading">
                                 <div className="headers">
                                     <div className="h1">Hello World <br/> i am Ali Imaran</div>
@@ -24,7 +24,7 @@ export default function Hero() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 col-sm-12">
                             <div className="profile">
                                 <div className="box1">
                                     <div className="box2">

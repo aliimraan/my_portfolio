@@ -8,7 +8,7 @@ main{
     position: relative;
     overflow: hidden;
 }
-main .content{
+main .container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,12 +19,11 @@ main .container .col-md-6{
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 11;
-}
+ }
 main .container .col-md-6 .heading{
     display: flex;
     justify-content: center;
@@ -126,7 +125,6 @@ main .heading .buttons .noColored:hover{
 
 main .col-md-6 .profile{
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,4 +178,68 @@ main .social img{
  filter: invert(1);
  height: 30px;
  transform: rotate(-90deg);
+}
+@media (max-width:1298px){
+    main .mysvg {
+        top: 4%;
+    }
+}
+@media (max-width:770px){
+   main .mysvg {
+        display: none;
+    }
+    main .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    main .col-md-6 .profile .box1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        background: #290058;
+        border-radius: 50%;
+    }
+    main .col-md-6 .profile .box2{
+        width: 300px;
+        height: 300px;
+        background: #2e0164;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .col-md-6 .profile .box3{
+        width: 250px;
+        height: 250px;
+        background: #1c013b;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .col-md-6 .profile .box3 img{
+        width:200px;
+        height: 200px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .container .col-md-6 .heading .headers .h1 {
+        font-size: 2rem;
+    }
+    main .social {
+        top: 79%;
+    }
+    main .col-md-6 .profile{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
 }
