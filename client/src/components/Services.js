@@ -53,7 +53,21 @@ export default function Services() {
                             <div className="image">
                                 <img src="/images/pic7.jpg"/>
                             </div>
-                            <div className="title">codeigniter</div>
+                            <div className="title">nodejs</div>
+                        </div>
+
+                        <div className="box">
+                            <div className="image">
+                                <img src="/images/pic7.jpg"/>
+                            </div>
+                            <div className="title">expressjs</div>
+                        </div>
+
+                        <div className="box">
+                            <div className="image">
+                                <img src="/images/pic7.jpg"/>
+                            </div>
+                            <div className="title">mongoDB</div>
                         </div>
                
 
