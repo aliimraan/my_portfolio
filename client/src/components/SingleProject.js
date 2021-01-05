@@ -33,7 +33,7 @@ class SingleProject extends Component {
                 return
             }else{
                 return (
-                    <h4>{item}</h4>
+                    <li>{item}</li>
                 )
             }
 
@@ -49,6 +49,21 @@ class SingleProject extends Component {
             }else{
                 return (
                     <img src={item}/>
+                )
+            }
+
+        })
+    }
+    showImpact=(el)=>{
+        if(el===undefined){
+            return
+        }
+        return el.map((item,index)=>{
+            if(el===[]){
+                return
+            }else{
+                return (
+                    <li key={index}>{item}</li>
                 )
             }
 
@@ -74,9 +89,17 @@ class SingleProject extends Component {
                             <div className="pro_section">
                                 <div className="title_section">{title}</div>
                                 <div className="desc_section">{desc}</div>
-                                <div className="impact_section">impact {impact}</div>
-                                <div className="tech_section">technologies used 
-                                    {this.showTags(tags)}
+                                <div className="impact_section">
+                                    <span style={{color:'#ff0066',fontSize:'1.3rem',fontWeight:'600'}}>features</span> 
+                                    <ul>
+                                       {this.showImpact(impact)}
+                                    </ul>
+                                </div>
+                                <div className="tech_section">
+                                    <span style={{color:'#ff0066',fontSize:'1.3rem',fontWeight:'600'}}>technologies used </span>
+                                    <ul>
+                                        {this.showTags(tags)}
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -84,7 +107,7 @@ class SingleProject extends Component {
                 </div>
             </div>
             <div className="pro_banner">
-                <div className="pro_header"><Link to="#" style={{textDecoration:'none',color:'#e4e0ea'}}>A live demo is better than thousand words</Link></div>
+                <div className="pro_header"><Link className="link" to="#" style={{textDecoration:'none',color:'#e4e0ea'}}>A live demo is better than thousand words</Link></div>
             </div>
             
             <div className="screen_shots">

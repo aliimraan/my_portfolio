@@ -9,7 +9,7 @@ export default function Services() {
                   
                         <div className="box">
                             <div className="image">
-                                <img src="/images/pic1.jpg"/>
+                                <img src="/images/html.png"/>
                             </div>
                             <div className="title">html5</div>
                         </div>
@@ -23,49 +23,42 @@ export default function Services() {
 
                         <div className="box">
                             <div className="image">
-                                <img src="/images/pic3.jpg"/>
+                                <img src="/images/bootstrap.png"/>
                             </div>
                             <div className="title">bootstrap</div>
                         </div>
 
                         <div className="box">
                             <div className="image">
-                                <img src="/images/pic4.jpg"/>
+                                <img src="/images/js.png"/>
                             </div>
                             <div className="title">js</div>
                         </div>
 
                         <div className="box">
                             <div className="image">
-                                <img src="/images/pic5.jpg"/>
-                            </div>
-                            <div className="title">es6</div>
-                        </div>
-
-                        <div className="box">
-                            <div className="image">
-                                <img src="/images/pic6.jpg"/>
+                                <img src="/images/react.png"/>
                             </div>
                             <div className="title">reactjs</div>
                         </div>
 
                         <div className="box">
                             <div className="image">
-                                <img src="/images/pic7.jpg"/>
+                                <img src="/images/node.jpg"/>
                             </div>
                             <div className="title">nodejs</div>
                         </div>
 
                         <div className="box">
                             <div className="image">
-                                <img src="/images/pic7.jpg"/>
+                                <img src="/images/express.svg"/>
                             </div>
                             <div className="title">expressjs</div>
                         </div>
 
                         <div className="box">
                             <div className="image">
-                                <img src="/images/pic7.jpg"/>
+                                <img src="/images/mongo.png"/>
                             </div>
                             <div className="title">mongoDB</div>
                         </div>
